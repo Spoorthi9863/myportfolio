@@ -1,0 +1,414 @@
+@import url('https://fonts.cdnfonts.com/css/fredoka');
+html {
+    scroll-behavior: smooth;
+}
+.navbar-brand {
+    color: #09203F;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+}
+#navitem1 {
+    color: #09203F;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+}
+#navitem2 {
+    color: #09203F;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+}
+#navitem3 {
+    color: #09203F;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+}
+#navitem4 {
+    color: #09203F;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+}
+#navitem5 {
+    color: #09203F;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+}
+#navitem6 {
+    color: #09203F;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+}
+
+
+.banner {
+    background-image: url("portfoliobg.jpeg");
+    margin-top: 50px;
+    background-size: cover;
+    width: 100%;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.banner-heading {
+    color: lightgray;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.banner-caption {
+    color: lightyellow;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.banner-caption-border{
+    border-style: solid;
+    border-bottom-right-radius: 5px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-color: lightyellow;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-right: 10px;
+}
+.banner-bp{
+    margin-bottom: 250px;
+}
+.banner-head-r{
+    border-style: solid;
+    border-top-left-radius: 5px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-top-width: 2px;
+    border-left-width: 3px;
+    border-color: lightgray;
+    padding-left: 10px;
+}
+.about-button{
+    font-family: 'Fredoka', sans-serif;
+    background-color: transparent;
+    color: lightgray;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-color: gray;
+}
+.arrow{
+    height: 20px;
+}
+.mypic{
+    height: 400px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-color: grey;
+
+}
+.resume-button{
+    font-family: 'Fredoka', sans-serif;
+    background-color: transparent;
+    color: #09203F;
+    font-weight: bolder;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-style: solid;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-color: #09203F;
+}
+.custom-button {
+    font-family: 'Fredoka', sans-serif;
+    width: 180px;
+    height: 35px;
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color: whitesmoke;
+    border-radius: 7px;
+    margin-right: 12px;
+    margin-bottom: 15px;
+}
+
+.wcu {
+    background-color: #f9fbfe;
+    text-align: left;
+    padding: 100px;
+    padding-left: 200px;
+}
+
+.wcu-head {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #09203F;
+    margin-bottom: 20px;
+}
+.education-head{
+    font-family: 'Fredoka', sans-serif;
+    color: #09203F;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.education-desc{
+    font-family: 'Fredoka', sans-serif;
+    color: #183b56;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.wcu-description {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
+    color: #537895;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.wcu-card {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+}
+
+.wcu-card-title {
+    font-family: 'Arial';
+    font-weight: 500;
+    font-size: 23px;
+    color: #323f4b;
+}
+
+.wcu-card-description {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
+    color: rgb(45, 45, 45);
+    font-weight: bold;
+}
+.span{
+    color: dodgerblue;
+    font-weight: bolder;
+}
+.offers {
+    color: #323f4b;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.explore-menu {
+    background-color: white;
+}
+
+.menu-head {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+    color: #183b56;
+}
+
+.item-img {
+    border-radius: 15px;
+}
+
+.item-name {
+    color: #323f4b;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+
+.item-border {
+    border-radius: 20px;
+    height: 120px;
+    width: 100px;
+    padding: 7px;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bolder;
+}
+
+.healthy-food-section {
+    background-color: #f9fbfe;
+    margin-top: 25px;
+    padding-top: 50px;
+}
+
+.healthy-food-section-img {
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    align-items: right;
+}
+
+.healthy-food-section-heading {
+    font-family: 'arial';
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+}
+
+.healthy-food-section-description {
+    color: #5a7184;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
+}
+
+.delivery-and-payment-section-img {
+    width: 270px;
+}
+
+.delivery-and-payment-section-heading {
+    font-family: 'arial';
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+}
+
+.delivery-and-payment-section-description {
+    color: #5a7184;
+    font-family: 'arial';
+    font-size: 16px;
+}
+
+.payment-card-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 28px;
+}
+
+.thanking-customers-section {
+    background-image: radial-gradient(#304d63, #09203F);
+}
+
+.thanking-customers-section-heading {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+    color: whitesmoke;
+}
+
+.thanking-customers-section-description {
+    color: whitesmoke;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 18px;
+}
+
+.thanking-customers-section-img {
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.icon-bg {
+    width: 104px;
+    height: 104px;
+    background-color: #faf7e8;
+    padding-top: 25px;
+    padding-bottom: 16px;
+    padding-left: 25px;
+    padding-right: 16px;
+    border-radius: 50px;
+}
+
+.follow-head {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+    margin-top: 32px;
+    text-align: center;
+    margin: 25px;
+    color: #09203F;
+    margin-top: 50px;
+}
+.viewicon{
+    height: 20px;
+    margin-left: 5px;
+}
+.footer-section {
+    background-image: radial-gradient(#304d63, #09203F);
+    color: whitesmoke;
+}
+.footer-head{
+    font-family: 'Fredoka', sans-serif;
+    color: whitesmoke;
+}
+.voucher-title {
+    color:#09203F;
+    font-weight: 800;
+}
+.custom-button2{
+    color:white;
+    background-color: #09203F;
+    border-width: 0;
+    border-radius: 7px;
+    padding: 5px;
+}
+.project1{
+    font-family: 'Fredoka', sans-serif;
+    text-align: right;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    font-weight: bold;
+    color: #304d63;
+    font-size: 17px;
+}
+.project2{
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+    color: #304d63;
+    margin-top: 70px;
+    font-size: 17px;
+}
+.quick{
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+}
+.quick:hover{
+    color: darksalmon;
+}
+.quickimg{
+    height: 20px;
+}
+.icon-spacing{
+    margin: 15px;
+    font-family: 'Fredoka', sans-serif;
+}
+.contacticons{
+    height: 25px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
