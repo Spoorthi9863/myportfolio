@@ -1,1 +1,723 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7be67e3c6a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a href="#">
+                <a class="navbar-brand">&lt;/&gt;SPOORTHI M</a>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto ncolor">
+                    <a class="nav-link active" id="navitem1" href="#about">About me<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="navitem2" href="#skills">Skills</a>
+                    <a class="nav-link" id="navitem3" href="#education">Education</a>
+                    <a class="nav-link" id="navitem4" href="#projects">Projects</a>
+                    <a class="nav-link" id="navitem5" href="#experiences">Experienes</a>
+                    <a class="nav-link" id="navitem6" href="#followus">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+    <div class="banner d-flex flex-column justify-content-start">
+        <div class = "row">
+            <div class="col-12">
+                <div class="banner-bp">
+                    <h1 class="banner-heading">
+                        <span class="banner-head-r">Hello,</span> <br>I'm Spoorthi M
+                    </h1>
+                    <p class="banner-caption">
+                        Java full stack development is my area of <span class="banner-caption-border">proficiency.</span>
+                    </p>
+                    <a href="#about">
+                        <button class="about-button">About me
+                            <img class="arrow" src="arrow.png"/>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="wcu">
+            <div class="row">
+                    <div class="col-md-6 col-sm-12 order-md-2 order-sm-2">
+                        <h1 class="wcu-head">
+                            About me
+                        </h1>           
+                        <p class="wcu-card-description">
+                            A Senior Java Full Stack Developer with over 8 years of experience 
+                            in Java/J2EE development, software development life cycle, and web 
+                            application development. Has expertise in various Java technologies 
+                            such as Spring Framework, Hibernate, & JSP/Servlets. And my skills 
+                            include developing RESTful web services, working with microservices 
+                            architecture, and utilizing cloud platforms like AWS and OpenShift. 
+                            I had experience in Agile methodologies, test-driven development, & 
+                            version control systems like Git. I hold a Bachelor's degree in 
+                            Computer Science Engineering.
+                        </p>
+                        <p class="wcu-card-description">
+                            <span class="span">Email:</span>  spoorthi9863@gmail.com <br>
+                            <span class="span">Phone:</span> +1 316-351-8892<br>
+                            <span class="span">Place:</span>  Bloomfield, Connecticut<br>
+                        </p>
+                        <button class="resume-button" onclick="openPdf()">Resume</button>
+
+                            <script>
+                                function openPdf() {
+                                    window.open('D:/sonu_portfolio/MyResumeJD.pdf', '_blank');
+                                }
+                            </script>
+                    </div>
+                    <div class="col-md-6 col-sm-12 order-md-1 order-sm-1">
+                        <img class="mypic" src="mypic.JPG"/>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id=skills>
+        <div class="explore-menu pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="menu-head mb-4">
+                            Skills
+                        </h1>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\c.png" class="item-img w-100" />
+                            <p>
+                                C
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\c++.png" class="item-img w-100" />
+                            <p>
+                                C++
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\python.png" class="item-img w-100" />
+                            <p>
+                                Python
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\java.png" class="item-img w-100" />
+                            <p>
+                                java
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\html.png" class="item-img w-100" />
+                            <p>
+                                HTML
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 ">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\css.png" class="item-img w-100" />
+                            <p>
+                                CSS
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\javascript.png" class="item-img w-100" />
+                            <p>
+                                Javascript
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\typescript.png" class="item-img w-100" />
+                            <p>
+                                TypeScript
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\bootstrap.png" class="item-img w-100" />
+                            <p>
+                                bootstrap
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\springboot.png" class="item-img w-100" />
+                            <p>
+                                Springboot
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\nodejs.png" class="item-img w-100" />
+                            <p>
+                                Node.js
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\reactjs.png" class="item-img w-100" />
+                            <p>
+                                React.js
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\angularjs.png" class="item-img w-100" />
+                            <p>
+                                Angular.js
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\sql.png" class="item-img w-100" />
+                            <p>
+                                SQL
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\mysql.png" class="item-img w-100" />
+                            <p>
+                                MySQ
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\postgresql.png" class="item-img w-100" />
+                            <p>
+                                PostgreSQL
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\nosql.png" class="item-img w-100" />
+                            <p>
+                                NoSQL
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\jquery.png" class="item-img w-100" />
+                            <p>
+                                JQuery
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\mongodb.png" class="item-img w-100" />
+                            <p>
+                                MongoDB
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\oracledb.png" class="item-img w-100" />
+                            <p>
+                                OracleDB
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\restfulapi.png" class="item-img w-100" />
+                            <p>
+                                Restful API
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\aws.png" class="item-img w-100" />
+                            <p>
+                                AWS
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\azure.png" class="item-img w-100" />
+                            <p>
+                                AZURE
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\snowflake.png" class="item-img w-100" />
+                            <p>
+                                SnowFlake
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\webservices.png" class="item-img w-100" />
+                            <p>
+                                WebServices
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\linux.png" class="item-img w-100" />
+                            <p>
+                                Linux
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\unix.png" class="item-img w-100" />
+                            <p>
+                                Unix
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\microservices.png" class="item-img w-100" />
+                            <p>
+                                Microservices
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\github.png" class="item-img w-100" />
+                            <p>
+                                Github
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\GUI.png" class="item-img w-100" />
+                            <p>
+                                GUI
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\ibm.png" class="item-img w-100" />
+                            <p>
+                                Websphere
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\grafana.png" class="item-img w-100" />
+                            <p>
+                                Grafana
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\openshift.png" class="item-img w-100" />
+                            <p>
+                                OpenShift
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\redhat.png" class="item-img w-100" />
+                            <p>
+                                Redhat
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\jenkins.png" class="item-img w-100" />
+                            <p>
+                                Jenkins
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="shadow-lg item-border w-60">
+                            <img src="D:\sonu_portfolio\icons\netbeans.png" class="item-img w-100" />
+                            <p>
+                                NetBeans
+                            </p>                            
+                        </div>
+                    </div>         
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="education">
+    <div class="healthy-food-section pb-5">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="education-head">Education</h1>
+            </div>
+            <div class="row">
+                
+                <div class="col-12 col-md-7">
+                    <h1 class="education-head">
+                        Acharya Nagarjuna University
+                    </h1>
+                    <p class="education-desc">
+                        Bachelor's in Computer Science & Engineering 
+                    </p>
+                    <p class="education-desc">
+                        2010-2014
+                    </p>
+                </div>
+                <div class="col-12 col-md-5 text-center">
+                    <div class="text-center">
+                        <img src="univ.jpg" class="healthy-food-section-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+<div id="projects">
+    <div class="thanking-customers-section pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 d-flex flex-column justify-content-center order-md-2">
+                    <div class="text-center d-md-none">
+                        <img src="projects.png" class="thanking-customers-section-img" />
+                    </div>
+                    <div>
+                        <h1 class="thanking-customers-section-heading">
+                            Projects
+                        </h1>
+                        <p class="thanking-customers-section-description">
+                            - Estimating the workout hours per week with lifestyle data and probable chances of obesity.
+                        </p>
+                        <button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal1">
+                            View Description
+                            <img class="viewicon" src = "view.png"/>
+                        </button>
+                        <br>
+                        <p class="thanking-customers-section-description">
+                            - Computer Architecture for Autonomous Driving Car.
+                        </p>
+                        <button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal2">
+                            View Description
+                            <img class="viewicon" src = "view.png"/>
+                        </button>
+                        <br>
+                        <p class="thanking-customers-section-description">
+                            - Development of Smart Helmet
+                        </p>
+                        <button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal3">
+                            View Description
+                            <img class="viewicon" src = "view.png"/>
+                        </button>
+                    </div>
+                    <div>
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog mt-5">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title voucher-title" id="exampleModalLabel">Project Description</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h7 class="voucher-title">Abstract</h7>
+                                        <p>This project aims to develop a predictive model to estimate the number of hours of workout per week based on lifestyle 
+                                            data and the likelihood of obesity. Lifestyle factors such as diet, physical activity level, sleep patterns, and stress
+                                            levels are considered as input features. The model utilizes machine learning algorithms to analyze these features and 
+                                            predict the weekly workout hours. Additionally, the model assesses the probability of obesity based on the input lifestyle data. 
+                                            The outcomes of this project can provide valuable insights for individuals seeking to maintain a healthy lifestyle and prevent obesity.
+                                        </p>
+                                        <h7 class="voucher-title">Conclusion</h7>
+                                        <p>In conclusion, this project demonstrates the feasibility of predicting the hours of workout per week and assessing the risk of 
+                                            obesity based on lifestyle factors. By leveraging machine learning techniques, the developed model offers a practical approach 
+                                            to personalized health management. By integrating lifestyle data into predictive models, individuals can gain valuable insights 
+                                            into their exercise habits and potential health risks. Further research and refinement of the model could lead to enhanced 
+                                            accuracy and applicability in real-world scenarios, ultimately contributing to improved public health outcomes.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" style="width: 81px;" class="custom-button2" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog mt-5">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title voucher-title" id="exampleModalLabel">Project Description</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h7 class="voucher-title">Abstract</h7>
+                                        <p>
+                                            Autonomous driving cars need highly complex hardware and software systems, which require high performance computing 
+                                            platforms in-order to enable a real-time AI-based perception and decision-making pipelines. The real time traffic is 
+                                            too complicated for present day Autonomous Driving computing systems to handle. Because of its static guidelines being 
+                                            deployed, the system is unable to perform spontaneously in emergency situations. This can be improved by increasing 
+                                            the system performance and computing speed. Safety is also a major concern for Autonomous vehicles; so, the ultimate 
+                                            challenge for designing an Edge-computing system for Autonomous vehicles is to deliver enough computing power, redundancy 
+                                            and security to guarantee its safety. According to the survey the driver is being tired or distracted and weather 
+                                            conditions are major causes for accidents. To avoid these accidents, we can upgrade to Autonomous vehicles as it is 
+                                            driverless, fully automated with sensors. There is development in various aspects related to Autonomous vehicles 
+                                            interaction with the vulnerable road users. There are six concepts presented for communication from Autonomous 
+                                            vehicles to pedestrians and feedback on their reliability. The development of new communication technologies for 
+                                            Autonomous vehicles and categorizing them based on their transmission range. There is a need for intelligence 
+                                            transport system for reducing the accidents and to improve the safety of people. Here we propose GPU computing 
+                                            system design which focuses on driving functions.
+                                        </p>
+                                        <h7 class="voucher-title">Conclusion</h7>
+                                        <p>
+                                            To conclude, we have studied that the autonomous driving car must perform well to achieve its’ goal of on road experience. 
+                                            As the real-time traffic is hectic for a fully automated device. There will be unexpected twists and the car needs to act 
+                                            accordingly. The integration of various sensors, technologies and systems is a miracle which we might achieve in few years 
+                                            in the future. But this is very helpful to physically challenged, elderly and pregnant women, etc. compared to any other car. 
+                                            Regarding performance, we have gained information and performed this project by comparing the performance with convolution time 
+                                            taking CPU, DSP and GPU into consideration which was given in the article. We found that the GPU is the fastest with more 
+                                            processing unit. On observing the graph which we took from the data collected in paper [5], we found that the GPU is the 
+                                            fastest processor compared to CPU and DSP. In first graph we compared between convolution time and processors.In the second 
+                                            graph we compared between convolution energy and processors. By observing this graph, we can tell that with less energy, 
+                                            the GPU is the best processor for the autonomous vehicle. Here, we can observe that the performance will be increased much 
+                                            better with GPU as a computing unit rather than DSP and CPU in Autonomous Driving Car.[5]. GPU is the best processor for the 
+                                            autonomous vehicle. Now the question comes, “Who is responsible when an AV gets into an accident? - The person in the car or 
+                                            the company that programmed the software.” This will be a non- soluble question as of now. But in the future, we infer that 
+                                            the government must take responsibility and create new laws and regulations for answering this.We also add that the performance 
+                                            is increased in some ways which will surely make autonomous cars a major hit on the roads. A real-autonomous driving on-road 
+                                            environment requires millions of interactions between vehicles, people, and devices. To handle such an extensive infrastructure, 
+                                            there is a need for a high-end infrastructure which may be costly. Thus, there is a need to study how artificial intelligence 
+                                            can efficiently utilize the infrastructure for smooth autonomous experiences. The overarching challenge of autonomous driving 
+                                            edge computing systems design is to efficiently integrate the functional modules, including interactions with edge servers and 
+                                            V2X infrastructure, to process a massive amount of heterogeneous data in real time, within a limited energy budget, and without 
+                                            sacrificing the security of the users. As the field continues to evolve, we can expect to see further innovations and 
+                                            developments that will shape the future of autonomous vehicles.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" style="width: 81px;" class="custom-button2" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog mt-5">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title voucher-title" id="exampleModalLabel">Project Description</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h7 class="voucher-title">Abstract</h7>
+                                        <p>
+                                            A traffic accident is defined as any vehicle accident occurring on public highway roads. The  thought  of developing  this 
+                                            project  comes to  do  some  good things towards the  society. Two-wheeler accidents are increasing day by day and  lead to  
+                                            loss of many lives. The  main aim of our project  is to build a safety system which is integrated with the smart  helmet and 
+                                            intelligent bike to reduce the probability of two-wheeler accidents. If any accident occurs no persons at place where to give 
+                                            information to the ambulance or parents. This is a situation we observe our day to day life, a thought of finding some solution
+                                             to resolve this problem come up  with this  idea  of giving  the  information about  accident  as soon as possible  and  in time. 
+                                             Smart helmet focusing on three major applications which are helpful in our day to day life. At first  and  most  one  is the  
+                                             ignition of the  bike  will  not  on if we are  not  wearing  the  helmet. Secondly alcoholic driving is not possible by 
+                                             using this smart helmet. If the rider is alcoholic, the bike will not start. Third application is accident detection. 
+                                             If person met with an accident, no one is there to help him and simply leaving or ignoring the person,  in such situation  
+                                             informing  to  ambulance  or  family  members  through  mobile  to  rescue  him  for  an  extent. Various technologies are 
+                                             now available for bike rider safety. Wireless communication between bike to helmet and bike to traffic signal and speed breaker. 
+                                             The system will be comprised of a helmet module including stereo speakers and microphone, and a bike mounted base unit. 
+                                             The system will make use of different wireless communication protocols including ZigBee and another radio frequency protocols. 
+                                             when the rider or driver driving a bike, he doesn’t know where the speed breakers are there. By using RF technology, they will 
+                                             find out where the speed breakers are there. Smart Helmet with Sensors for Accident Prevention, the microcontroller used in the 
+                                             system is Peripheral Interface Controller (PIC). Force  Sensing  Resistance  (FSR)  and  the  speed  sensor  are  used  as  
+                                             sensors  to  operate  this  system. Signal  transmission  between  the  two  circuits  is  using  a  radio  frequency  concept.  
+                                             315  MHz  Radio Frequency Module is used since the range between the circuits is short. Drawback of this work as the motorcycle's  
+                                             engine  will  only  start  is  the  helmet  is  worn  and  the  belt  has  been  buckled.  A  Solar Powered  Smart  Helmet  with  
+                                             Multifeatures.  In  this  helmet  have  multi  features  like  Engine  control system  with  the  smart,  in  built  Bluetooth  
+                                             system,  accident  alert  system,  emergency  alert  switch  (it gives  the  emergency  message to police  or  family  members)  
+                                             and cell phone charging with the solar power. Accidental Avoidance and Cabin Safety System for Automobiles. This system endures 
+                                             mainly with  two  modules  namely  Gas  sensing  module  and  Obstacle  detection  module  these  are  interfaced with ATmega16 
+                                             microcontroller.
+                                        </p>
+                                        <h7 class="voucher-title">Conclusion</h7>
+                                        <p>
+                                            To conclude we can say that in short, this helmet ensures the safety of the bike rider. A  rider  can’t  start  bike  if  he  
+                                            drank  alcohol or  he/she  hasn’t  wore  helmet,  so  he/she  has  to follow  the  traffic  rules,  and  accident  reporting  
+                                            feature  will save  the  Bike  rider’s  life.  Two- wheeler have high rate of accidents than cars or trucks and buses. The 
+                                            aim of smart helmet is to  Provide  Safety to  the  bike  rider.  With the  help of Proper Switch Mounted  in  helmet  the 
+                                            two-wheeler would not start without helmet so safety of rider is assured and if accident has occurred our system will give  
+                                            information to the ambulance about the accident, so they can take certain measures to save the life of the person who meet 
+                                            with an accident. It is developed using Arduino. We place sensors in different sides of helmet which is connected to Arduino 
+                                            board. So, when the  bike  rider  crashes sensors sense  and  the  Arduino  extract  GPS location data  using  the  GPS  which  
+                                            is  interfaced  with  Arduino.  When  the  sensor  data  exceeds maximum  limit  of pressure  then  GSM  module  automatically  
+                                            sends  message  to  ambulance, police and family members. In case of minor injuries, the rider can stop sending of message by 
+                                            the SMS sending stop switch.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" style="width: 81px;" class="custom-button2" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-5 d-none d-md-block order-md-1">
+                    <img src="projects.png" class="thanking-customers-section-img ml-lg-5" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="experiences">
+    <div id="followus mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="follow-head">Experienes</h1>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="project1">
+                            <p>
+                                Cigna Corporation, Bloomfield, CT<br>
+                                Sr. Java Full Stack Developer<br>
+                                March 2022 to Present
+                            </p>
+                            <hr>
+                            <p>
+                                Regeneron Pharmaceuticals Inc, Tarrytown, NY<br>
+                                Java Full Stack Developer<br>
+                                October 2019 to October 2020
+                            </p>
+                            <hr>
+                            <p>
+                                Max Financial Services, Hyderabad, Telangana, India<br>
+                                Java Developer<br>
+                                April 2016 to December 2017
+                            </p>
+                        </div>
+                        <div class="project2">
+                            <p>
+                                LexisNexis Risk Solutions LLC, Boca Raton, FL<br>
+                                Sr. Java Full Stack Developer<br>
+                                November 2020 to February 2022     
+                            </p>
+                            <hr>
+                            <p>
+                                CSC, Hyderabad, Telangana, India<br>
+                                Java Full Stack Developer<br>
+                                January 2018 to September 2019 
+                            </p>
+                            <hr>
+                            <p>
+                                Microsoft Corporation, Hyderabad, Telangana, India<br>
+                                Software Developer <br>
+                                November 2014 to March 2016
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="footer-section d-flex flex-row justify-content-center mt-5 pt-5 pb-5">
+        <div>
+            <h1 class="footer-head">Quick Links</h1>
+            <p>
+                <img class="quickimg" src="arrowlinks.png"/>
+                <a href="#about" class="quick">About me</a>
+            <br>
+                <img class="quickimg" src="arrowlinks.png"/>
+                <a href="#skills" class="quick">Skills</a>
+            <br>
+                <img class="quickimg" src="arrowlinks.png"/>
+                <a href="#education" class="quick">Education</a>
+            <br>
+                <img class="quickimg" src="arrowlinks.png"/>
+                <a href="#projects" class="quick">Projects</a>
+            <br>
+                <img class="quickimg" src="arrowlinks.png"/>
+                <a href="#experiences" class="quick">Experienes</a>
+            </p>
+        </div>
+        <div class="ml-5">
+            <h1 class="footer-head">Contact me</h1>
+            <p>
+                <i class="fas fa-envelope"><span class="icon-spacing">spoorthi9863@gmail.com</span></i><br>
+            </p>
+            <p>
+                <i class="fas fa-phone"><span class="icon-spacing">+1 316-351-8892</span></i><br>
+            </p>
+            <p>
+                <i class="fas fa-map-marker-alt"> <span class="icon-spacing"> Bloomfield, Connecticut</span></i>
+            </p>
+            
+            <a href="https://www.linkedin.com/in/spoorthi0985/" target="_blank">
+                <img class="contacticons" src="linkedIn.png">
+            </a>
+            <a href="https://github.com/Spoorthi9863/" target="_blank">
+                <img class="contacticons" src="github.png">
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
